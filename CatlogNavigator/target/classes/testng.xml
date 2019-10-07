@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Maven suite">
+	<listeners>
+		<listener
+			class-name="Com.catnav.ExtentReportsListener.ExtentReporterNG" />
+	</listeners>
+	<test name="Test Maven Testing">
+		<classes>
+			<!-- 
+			<class
+				name="CatlogNavigator/src/test/java/POM/QAM/Demo/DemoTest.java" />
+			<class
+				name="CatlogNavigator/src/test/java/POM/QAM/Demo/DemoTest2.java" />
+			<class
+				name="CatlogNavigator/src/test/java/POM/QAM/Demo/DemoTest3.java" />
+				-->
+				<class name="Com.catnav.QAM.TestCases.OrderSubmissionTest" />
+		</classes>
+	</test>
+</suite>

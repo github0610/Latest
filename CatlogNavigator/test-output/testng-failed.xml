@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Maven suite]">
+  <listeners>
+    <listener class-name="Com.catnav.ExtentReportsListener.ExtentReportsNG"/>
+  </listeners>
+  <test thread-count="5" name="Test Maven Testing(failed)">
+    <classes>
+      <class name="Com.catnav.QAM.TestCases.OrderSubmissionTest">
+        <methods>
+          <include name="verifyOrdersubmission"/>
+          <include name="setup"/>
+          <include name="endup"/>
+        </methods>
+      </class> <!-- Com.catnav.QAM.TestCases.OrderSubmissionTest -->
+    </classes>
+  </test> <!-- Test Maven Testing(failed) -->
+</suite> <!-- Failed suite [Test Maven suite] -->
